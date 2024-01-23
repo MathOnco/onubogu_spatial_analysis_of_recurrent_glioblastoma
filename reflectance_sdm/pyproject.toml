@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "reflectance"
+version = "0.1.0"
+description = ""
+authors = ["Chandler Gatenbee <chandlergatenbee@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+scikit-image = "^0.20.0"
+matplotlib = "^3.7.1"
+tqdm = "^4.65.0"
+scikit-learn = "^1.2.2"
+shapely = "^2.0.1"
+colour-science = "^0.4.3"
+seaborn = "^0.12.2"
+numba = "^0.58.0"
+imbalanced-learn = "^0.11.0"
+torch = "^2.0.1"
+captum = "^0.6.0"
+torchvision = "^0.15.2"
+balanced-loss = "^0.1.0"
+tabgan = "^2.0.5"
+vit-pytorch = "^1.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
